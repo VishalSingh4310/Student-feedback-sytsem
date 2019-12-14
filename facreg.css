@@ -1,0 +1,224 @@
+body{
+    margin:0;
+    padding:0;
+    background: url(images/h1.jpg);  
+    background-size: cover;
+    background-position:bottom;
+    height: 100vh;
+    font-family:'poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family:'Poppins', sans-serif;
+    background-color:rgba(0,0,0,0.02); 
+}
+.head{
+    color:white;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.head a{
+    color:white;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+.nav-links{
+    display: flex;
+    margin-left: 8%;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li{
+    list-style-type: none;
+}
+.nav-links a{
+    color:white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:6px;
+    padding-bottom:6px;
+    font-size: 15px;
+    border-radius: 17px;
+    margin-left: 20px;
+    text-align: center;
+}
+.nav-links a:hover{
+  
+    border: 1.5px solid #C418BF;
+    transition: 0.1s;
+    color:#C418BF
+}
+.nav-links li:hover >ul
+{
+    margin-top: 5px;
+    display: block;
+    transition: 0.01s;
+}
+.nav-links li ul{
+    display: none;
+    padding: 0;
+    margin: -10px;
+    list-style-type:none;
+    position: absolute;
+  
+    justify-content: space-between;
+    max-height: 0;
+    z-index: 2;
+}
+
+.nav-links li ul li a{
+    letter-spacing: 1px;
+    
+    font-size: 15px;
+    background-color:rgba(0, 0,0,0.002);
+    display:inline-block;
+    padding:6px;
+    text-align: center;
+    color:white;
+    width: 100%;
+    text-decoration:none;
+}
+/*.logo{
+    width:125px;
+    height:125px;
+    position:absolute;
+   padding:10px 10px;
+
+}*/
+.loginbox
+{
+    width:400px;
+    height:520px;
+    background:white;
+    color:black;
+    top: -20%;
+    right:75%;
+    position:absolute;
+    transform:translate(50%,50%);
+    box-sizing:border-box;
+    padding:10px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(93, 12, 185, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h1{
+    margin-top: 17px;;
+    padding: 0; 
+    
+    text-align:left;
+    font-size:25px;
+    font-family:'Poppins', sans-serif;
+}
+.course
+{
+    border:none;
+    border-bottom:1px solid black;
+    background: transparent;
+    outline: none;
+    height: 22px;
+    font-size: 15px; 
+    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+    position: right;
+    margin-bottom: 10px;
+    
+}
+
+label{
+    padding-right: 50px;
+    border:none;
+    padding-bottom:20px; 
+    background: transparent;
+    outline: none;
+    height: 22px;
+    font-size: 15px; 
+    font-weight:bold;
+    font-family:'Poppins', sans-serif;
+   
+}
+.loginbox p{
+    margin:0;
+    padding:5px 2px 0 0;
+    font-weight:bold;
+}
+.loginbox input{
+    width:100%;
+    margin-bottom:0px;
+    padding: 0;
+}
+.loginbox input[type="email"]
+{
+    border:none;
+    border-bottom:1px solid black;
+    background: transparent;
+    outline: none;
+    height: 35px;
+    font-size: 16px;
+}
+.loginbox input[type="text"],input[type="password"]{
+    border:none;
+    border-bottom:1px solid black;
+    background:transparent;
+    outline:none;
+    height:35px;
+    color:black;
+    font-size:16px;
+}
+.loginbox input[type="tel"]
+{
+    border:none;
+    border-bottom:1px solid black;
+    background:transparent;
+    outline:none;
+    height:35px;
+    
+    font-size:16px;
+}
+
+.loginbox input[type="submit"]
+{
+    border:none;
+    outline:none;
+    height:35px;
+    color:white;
+    background:#3A3B5A;
+    font-size:18px;
+    border-radius:20px;
+    margin-top: 17px;
+    box-shadow: 0 4px 8px 0 rgba(93, 12, 185, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor:pointer;
+    background:#C23B9E ;
+    color:white;
+    box-shadow: 0 4px 8px 0 rgba(93, 12, 185, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.2s;
+}
+
+
+
+ @media screen and (max-width:1024px)
+ {
+     .loginbox{
+        width:32px;
+     }
+ }
+ .role
+ {
+     margin-left: 900px;
+     margin-top: 190px;
+     font-size: 80px;
+     color: white;
+    font-family: 'poppins',sans-serif;
+ }
+ 
+
+

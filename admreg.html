@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    
+    
+    <title>Register</title>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="admreg.css">
+    <link href="icon/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500&display=swap" rel="stylesheet">
+  
+    <body>
+   
+       <nav>
+           <div class="head">
+                <h3><a>Student </a>Feedback System</h3>
+           </div>
+           <ul class="nav-links">
+               <li>
+                   <a href="home.html">Home</a>
+               </li>
+               <li>
+                <a>Register</a>
+                
+                        <ul>
+                            <li><a href="admreg.html">Admin</a></li>
+                            <li><a href="facreg.html">Faculty</a></li>
+                            <li><a href="studreg.html">Student</a></li>
+                        </ul>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+           </ul>
+         </nav>
+         <div class="role">Admin</div>
+    <div class="loginbox">
+        
+    <form action="admreg.php" method = "POST">
+            <h1>Register</h1>
+            <p>Username</p>
+            <input type="text" name="user" placeholder="Enter Username">
+            <p>Email</p>
+            <input type="email" name="email" placeholder="someone@example.com">
+            <p>Phone No</p>
+            <input type="tel" name="phone" placeholder="+91">
+            <p>Password</p>
+            <input type="password" name="password"placeholder="Enter Password">
+            <p>Confirm Password</p>
+            <input type="password" name="cpassword"placeholder="Enter Password">
+            <input type="submit" name="login"value="SignUp">
+           
+           
+        </form> 
+
+    </div>
+    
+
+  
+  
+  
+   
+   <!--- <div class="logo">
+        <img src="images/logo3.png" class="logo">
+    </div> -->
+      
+</body>
+</head>

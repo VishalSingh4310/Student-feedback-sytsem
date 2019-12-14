@@ -1,0 +1,192 @@
+body{
+    margin:0;
+    padding:0;
+    background: url(images/top2.jpg);  
+    background-size: cover;
+    background-position:bottom;
+    height: 100vh;
+    font-family:'poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family:'Poppins', sans-serif;
+    background-color:rgba(0,0,0,0.02);   
+}
+.head{
+    color:white;
+    text-transform:uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.head a{
+    color:white;
+    letter-spacing: 4px;
+    font-size: 40px;
+}
+.nav-links{
+    display: flex;
+    margin-left: 8%;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li{
+    list-style-type: none;
+}
+.nav-links a{
+    color:white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:6px;
+    padding-bottom:6px;
+    font-size: 15px;
+    border-radius: 17px;
+    margin-left: 20px;
+    text-align: center;
+}
+.nav-links a:hover{
+  
+    border: 1.5px solid #C418BF;
+    transition: 0.1s;
+    color:#C418BF
+}
+.nav-links li:hover >ul
+{
+    margin-top: 5px;
+    display: block;
+    transition: 0.01s;
+}
+.nav-links li ul{
+    display: none;
+    padding: 0;
+    margin: -10px;
+    list-style-type:none;
+    position: absolute;
+    top:60px;
+    justify-content: space-between;
+    max-height: 0;
+}
+
+.nav-links li ul li a{
+    letter-spacing: 1px;
+    
+    font-size: 15px;
+    background-color:rgba(0, 0,0,0.002);
+    display:inline-block;
+    padding:6px;
+    text-align: center;
+    color:white;
+    width: 100%;
+    text-decoration:none;
+}
+
+input[type=button]{
+    margin-left: 50px;
+    margin-top: 5px;
+    border:none;
+    outline:none;
+    color:white;
+    background:#C70039;
+    font-size:15px;
+    border-radius:20px;
+    padding:10px 0; 
+    cursor: pointer;
+    width: 155px;
+    font-family: 'poppins',sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(93, 12, 185, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[type=button]:hover
+{
+    cursor:pointer;
+    transition: 0.3s;
+    background:rgba(0, 0,0,0.002); 
+    color:white;
+    border: 1.5px solid #C418BF;
+    box-shadow: 0 4px 8px 0 rgba(93, 12, 185, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+   
+}
+   
+.loginbox{
+   color:#29D6C3 ;
+    display: flex;
+    margin-left: 40%;
+    justify-content: space-around;
+    width: 20%;
+   border-radius:20px;
+  
+
+}
+.loginbox li{
+    list-style-type: none;
+}
+.loginbox a{
+    color:#29D6C3 ;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:6px;
+    padding-bottom:6px;
+    font-size: 20px;
+    border-radius: 17px;
+    margin-left: 20px;
+    text-align: center;
+}
+.loginbox a:hover{
+  
+    border: 1.5px solid #C418BF;
+    transition: 0.1s;
+    color:#C418BF
+}
+.loginbox li:hover >ul
+{
+    margin-top:-2px;
+    display: block;
+    transition: 0.01s;
+}
+.loginbox li ul{
+ 
+    display: none;
+    padding: 0;
+    margin: -15px;
+    list-style-type:none;
+    position: absolute;
+    top:525px;
+    justify-content: space-between;
+    max-height: 0;
+    margin-left:-10px ;
+}
+
+.loginbox li ul li a{
+    letter-spacing: 1px;
+    font-size: 15px;
+    background-color:rgba(0, 0,0,0.002);
+    display:inline-block;
+   margin-left:5px;
+    text-align: center;
+    color:white;
+    width: 100%;
+    text-decoration:none;
+}
+.para{
+    margin-top:8%;
+}
+.para p{
+    padding-top:100px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.para1
+{
+    margin-left: 20px;
+    font-size: 40px;
+    color:#29D6C3;
+}

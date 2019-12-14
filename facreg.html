@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+    
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="facreg.css">
+    <link href="icon/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500&display=swap" rel="stylesheet">
+  
+    <body>
+        
+       <nav>
+           <div class="head">
+                <h3><a>Student </a>Feedback System</h3>
+           </div>
+           <ul class="nav-links">
+               <li>
+                   <a href="home.html">Home</a>
+               </li>
+               <li>
+                <a>Register</a>
+                
+                <ul>
+                    <li><a href="admreg.html">Admin</a></li>
+                    <li><a href="facreg.html">Faculty</a></li>
+                    <li><a href="studreg.html">Student</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+           </ul>
+         
+       </nav>
+       <div class="role">Faculty</div>
+    <div class="loginbox">
+   
+        
+     <form action="fac.php" onsubmit="return fun(this);" method="POST">
+            <h1>Register</h1>
+            <p>Full Name</p>
+            <input type="text" name="username"placeholder="Name"required>
+            <p>Email</p>
+            <input type="email" name="email" placeholder="someone@example.com"required>
+            <p>Phone No</p>
+            <input type="tel" name="phone" placeholder="+91" maxlength="10" required>
+            <label>Department :    </label>
+            <select class="course" name="department"required>
+                <option value="B.Tech">B.Tech</option>
+                <option value="BBA">BBA</option>
+                <option value="MCA">MCA</option>
+                <option value="BCA">BCA</option>
+            </select>
+            <p>Password</p>
+            <input type="password" name="password"placeholder="Enter Password" >
+            <p>Confirm Password</p>
+            <input type="password" name="cpassword"placeholder="Enter Password" required>
+            <input type="submit" name="submit"  value="SignUp">
+           
+        </form>   
+    </div>
+   <script>
+       function fun(theForm) {
+    if (theForm.password.value != theForm.cpassword.value)
+    {
+        alert('Those password don\'t match!');
+        return false;
+    } else {
+        return true;
+    }
+}
+   </script>
+   
+      
+</body>
+</head>
